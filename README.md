@@ -33,7 +33,7 @@
 
 ###SV
 
->C++ [osuSVtool](https://github.com/longnguyen2004/osuSVTool/tree/master/osu! SV Tool)
+>C++ [osuSVtool](https://github.com/longnguyen2004/osuSVTool)
 
 >web [SV change tools](http://zardoru.github.io/sv-tools/) and source [blackhole-studio (TypeScript)](https://github.com/zardoru/blackhole-studio)
 
