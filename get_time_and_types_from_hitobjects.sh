@@ -7,13 +7,13 @@ echo "now generating..."
 # 2: LN tail(s)
 #
 # read timing values from hitobjects
+empty_string="0:0:0:0:"
 while read -r line ;
 do
 	time_string_1=${line#*,}
 	time_string_2=${time_string_1#*,}
 	time=${time_string_2%%,*}
 	printf '%s\n' "${time} 1" >> all_time.osu
-	empty_string="0:0:0:0:"
 	LN_tail_time_string=${line##*,}
 	if [[ "${LN_tail_time_string}" != "${empty_string}" ]] ; then # it's a LN, now getting the time of its tail
 		LN_tail_time=${LN_tail_time_string%%:*}
