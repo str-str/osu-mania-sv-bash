@@ -34,6 +34,7 @@ echo ""
 #
 read -p "enter start time of sv:(milisecond)" start_time
 i=0 # loop count, for debugging usage
+whether_sv=1
 tail -n +2 "t.osu" > t0.osu
 tail -n +2 "types.osu" > types0.osu
 while read -r line_t && read -r line_types <&3;
